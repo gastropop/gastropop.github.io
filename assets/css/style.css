@@ -1,0 +1,546 @@
+html, body {
+  font-family: 'AmsiPro-Regular', sans-serif;
+  color:#2c2c2c;
+}
+
+fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+img {
+  display:block;
+}
+
+.nopadding {
+  display:inline-block;
+  padding: 0px;
+}
+
+.centerinside {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+}
+
+#gptextheader {
+  height:50%;
+  width:auto;
+}
+
+.header-area {
+  padding: 0px 15px;
+}
+
+#navcontainer {
+  float:right;
+  display: flex;
+  align-items: center;
+}
+
+#homesection {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 0px;
+}
+
+#gplogo, #experienciastxt {
+  width:80%;
+}
+
+#enviarmsg {
+  border: none;
+  font-family: 'AmsiPro-Bold', sans-serif;
+  padding: 20px 40px 20px 40px;
+  background-color: #584fab;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: none;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.gpbtn {
+  padding: calc(var(--btnsize) * 0.8) calc(var(--btnsize) * 1.3);
+  font-size: calc(var(--btnsize) * 0.65);
+  line-height: calc(var(--btnsize) * 0.65);
+  font-family: 'AmsiPro-Bold', sans-serif;
+  background-color: #eb5d9d;
+  color: #fff;
+  font-weight: 400;
+  border-radius: 40px;
+  transition: background-color .2s;
+}
+
+#agendabtn:hover {
+  background-color: #777;
+}
+
+#agendasection {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-position: top right;
+  background-repeat: no-repeat;
+  margin-top: 0px;
+  background-image: url(../images/agendabg.svg);
+  background-size: 20%;
+}
+
+#eventdate {
+  margin-top:5px;
+  font-size: 16px;
+}
+
+#eventname {
+  font-family: 'AmsiPro-Bold', sans-serif;
+  font-size: 24px;
+}
+
+#eventdescription {
+  color:#777;
+}
+
+#experienciasection {
+  background-position: top left;
+  background-repeat: no-repeat;
+  margin-top: 0px;
+  padding: 10vw 0px 80px 0px;
+  background-image: url(../images/experienciasbg.svg);
+  background-size: 35%;
+  background-color:#eb5d24;
+}
+
+#holaungustopost {
+  width:80%;
+}
+
+#holasection {
+  padding-top: 10vw;
+  padding-bottom: 100px;
+}
+
+#contactsection {
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-image: url(../images/contactbg.png);
+  background-color:#eb5d24;
+  background-size: contain;
+  position: relative;
+  padding: 150px 0px 200px 0px;
+}
+
+#contactotxt {
+  font-family: 'AmsiPro-Bold', sans-serif;
+  font-size: 56px;
+  font-weight: 600;
+  color: #2c2c2c;
+}
+
+#contactosubtxt {
+  line-height:30px;
+}
+
+#homesubtxt {
+  font-family: 'AmsiPro-Bold', sans-serif;
+  font-weight: 600;
+  line-height: var(--subtxtsize);
+}
+
+#experienciassubtxt, #homesubtxt {
+  text-align: center;
+  color: #fff;
+  font-size: var(--subtxtsize);
+}
+
+#experienciassubtxt {
+  line-height: calc(var(--subtxtsize)*1.2);
+}
+
+#experienciastxt {
+  width:75%;
+}
+
+#aboutustxt {
+  color:#777;
+  line-height:30px;
+  margin-top:20px;
+}
+
+#info-table {
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  padding: 35px 30px;
+  display:inline-block;
+  height:fit-content;
+  width:30%;
+  margin-left: 20px;
+}
+
+#contactleftelem {
+  width:30%;
+}
+
+#contact-form {
+  display:inline-block;
+  margin-left: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  padding: 5vw;
+  background-color: #ffe600;
+}
+
+#contact-form label {
+  font-family: 'AmsiPro-Bold', sans-serif;
+  font-size: 15px;
+  color: #3a3a3a;
+  margin-bottom: 5px;
+}
+
+#contact-form input {
+  width: 100%;
+  height: 60px;
+  border-radius: 22px;
+  background-color: #f6f6f6;
+  border: none;
+  margin-bottom: 30px;
+  font-size: 14px;
+  padding: 0px 15px;
+}
+
+#contact-form textarea {
+  width: 100%;
+  height: 150px;
+  max-height: 180px;
+  border-radius: 22px;
+  background-color: #f6f6f6;
+  border: none;
+  margin-bottom: 40px;
+  font-size: 14px;
+  padding: 15px 15px;
+}
+
+.rightstext {
+  margin-top:10px;
+  line-height:25px;
+}
+.footertext {
+  font-family: 'AmsiPro-Bold', sans-serif;
+  color:#eb5d24;
+  margin-top:10px;
+  margin-bottom:15px;
+  font-size: 18px;
+}
+
+footer {
+  padding:20px 0px;
+  background-color: #fff;
+}
+
+.video-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.video-container .caption {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  color: #dc0000;
+  padding: 30px 0px 150px 0px;
+}
+
+nav li {
+  text-align: center;
+}
+
+#navcontainer {
+  height:100%;
+  width:initial;
+}
+
+/* 
+---------------------------------------------
+Responsive Style
+--------------------------------------------- 
+ */
+
+@media (min-width: 1px) {
+  :root {
+    --subtxtsize: 4vw;
+  }
+
+  #footertop {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #footerrights {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom:20px;
+  }
+
+  #footerbr {
+    display:initial;
+  }
+
+  #footercontact {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+
+  #navcontainer {
+    display:none;
+  }
+
+  .holaungustoelem {
+    width:95vw;
+  }
+
+  .headerheight {
+    height: 80px;
+  }
+
+  .header-area .menu-trigger {
+    display: block;
+  }
+
+  #agendatxt {
+    width:40%;
+  }
+
+  #agendatxtcontainer {
+    width:100%;
+  }
+
+  #info-table {
+    width:100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+
+  #agendaimg {
+    display:none;
+  }
+
+  #holaungustopost {
+    display:none;
+  }
+  #holaungustopre {
+    display:flex;
+    margin-bottom:20px;
+  }
+
+  .hideexp {
+    display:none;
+  }
+
+  .nopadding {
+    width:90vw;
+  }
+
+  #contactsection {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  #contactleftelem {
+    display:none;
+  }
+
+  #contact-form {
+    width:100%;
+    margin:0px;
+  }
+
+  #agendabtn, #seguinosbtn {
+    --btnsize: calc(var(--subtxtsize) * 1.2);
+  }
+
+  #reservabtn {
+    --btnsize: calc(var(--subtxtsize) * 1.1);
+    margin-top:calc(var(--subtxtsize) * 0.5);
+  }
+}
+
+@media (min-width: 767px) {
+  :root {
+    --subtxtsize: 2.8vw;
+  }
+
+  #footerbr {
+    display:none;
+  }
+
+  #footercontact {
+    display:inline-block;
+    flex: initial;
+    text-align: initial;
+  }
+
+  #seguinos {
+    margin-left:60px;
+  }
+
+  .hideexp {
+    display:inline-block;
+  }
+
+  .nopadding {
+    width:45vw;
+  }
+}
+
+@media (min-width: 999px) {
+  :root {
+    --subtxtsize: 2.3vw;
+  }
+
+  #footerbr {
+    display:initial;
+  }
+
+  #footerrights {
+    display:inline-block;
+    flex: initial;
+    text-align: initial;
+    margin-bottom:0px;
+  }
+
+  #footertop {
+    flex: 1;
+    flex-direction: initial;
+    align-items: initial;
+    text-align: initial;
+  }
+
+  #navsmall {
+    display: none!important;
+  }
+
+  .headerheight {
+    height: 80px;
+  }
+
+  .header-area .menu-trigger {
+    display: none;
+  }
+
+  #navcontainer {
+    display:flex;
+  }
+
+  .holaungustoelem {
+    width:45vw;
+    display:inline-block;
+    vertical-align: top;
+  }
+
+  #holaungustotxt {
+    padding-left:30px;
+  }
+
+  #contactsection {
+    padding: 150px 0px 200px 0px;
+  }
+
+  #contactleftelem {
+    display:inline-block;
+  }
+
+  .nopadding {
+    width:22.5vw;
+  }
+
+  #contact-form {
+    width:60%;
+  }
+
+  .formsmall {
+    width:49%;
+    display:inline-block;
+  }
+
+  #agendatxt {
+    width:500px;
+    padding-left:100px;
+  }
+
+  #agendatxtcontainer {
+    width:500px;
+  }
+
+  #info-table {
+    width:30%;
+    margin-left: 20px;
+  }
+
+  #agendasection {
+    padding-left:0px;
+  }
+
+  #agendaimg {
+    display:initial;
+  }
+
+  #holaungustopost {
+    display:initial;
+  }
+  #holaungustopre {
+    display:none;
+  }
+
+  #agendabtn, #seguinosbtn {
+    --btnsize: calc(var(--subtxtsize) * 0.9);
+  }
+
+  #reservabtn {
+    --btnsize: calc(var(--subtxtsize) * 0.8);
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --subtxtsize: 2.1vw;
+  }
+}

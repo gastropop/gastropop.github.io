@@ -1,7 +1,259 @@
 <!DOCTYPE html>
-<html>
-<body>
-  Coming soon
+<html lang="en">
 
-</body>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicons -->
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon-black.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32-black.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16-black.png">
+    -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon-alpha.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32-alpha.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16-alpha.png">
+
+    <title>Gastropop</title>
+
+    <link rel="stylesheet" href="assets/css/static.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="centerinside">
+    <img fetchpriority="high" src="assets/images/gplogo.svg" style="margin-bottom:20px;width:20%">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <div class="headerheight" id="headerph" style="display:none">
+  </div>
+  <header class="header-area headerheight">
+    <nav class="main-nav" style="height:100%">
+      <div style="float:left; height:100%">
+        <a href="index.html" class="logo" style="height: 100%; display: flex; align-items: center;">
+          <img fetchpriority="high" src="assets/images/gptext.svg" id="gptextheader">
+        </a>
+      </div>
+        <ul id="navcontainer">
+          <li><a href="#homesection" class="active">Home</a></li>
+          <li><a href="#agendasection">Agenda</a></li>
+          <li><a href="#experienciasection">Experiencias</a></li>
+          <li><a href="#holasection">Sobre nosotros</a></li>
+          <li><a href="#contactsection">Contacto</a></li>
+        </ul> 
+      <ul id="navsmall">
+          <li><a href="#homesection" class="active">Home</a></li>
+          <li><a href="#agendasection">Agenda</a></li>
+          <li><a href="#experienciasection">Experiencias</a></li>
+          <li><a href="#holasection">Sobre nosotros</a></li>
+          <li><a href="#contactsection">Contacto</a></li>
+      </ul>   
+      <a class='menu-trigger'>
+        <span>Menu</span>
+      </a>
+    </nav>
+  </header>
+
+  <div id="homesection" class="centerinside">
+    <div class="video-container">
+        <video poster="assets/images/gp1.png" preload="auto" playsinline="" muted="" autoplay="" loop=""><source type="video/mp4" data-src="assets/videos/reelshort.mp4"><source type="video/webm" data-src="assets/videos/reelshort.webm"></video>
+        <div class="caption centerinside" style="background: rgba(0, 0, 0, .4)">
+          <div class="centerinside" id="homeinner" style="width: fit-content;">
+            <img fetchpriority="high" src="assets/images/gplogo.svg" id="gplogo">
+            <br>
+            <div id="homesubtxt">
+              Experiencias gastrónomicas efímeras
+              <br>
+              para activar todos tus sentidos
+            </div>
+            <br>
+            <a href="#agendasection" class="gpbtn" id="agendabtn">Ver agenda</a>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div id="agendasection">
+    <div class="centerinside" id="agendatxtcontainer">
+      <img fetchpriority="high" src="assets/images/agendatxt.svg" id="agendatxt">
+    </div>
+    <div style="display:flex; align-items:center;margin-top:0px">
+      <img src="assets/images/agendaimg.png" id="agendaimg" style="height:80%; width:auto">
+      <div id="info-table">
+        <div class="centerinside">
+          <img src="assets/images/poolparri.jpg" style="width:90%" alt="">
+        </div>
+        <div id="eventdate">13/04/2024</div>
+        <div id="eventname">Poolparri</div>
+        <div id="eventdescription">
+Imaginá: día de campo con pile, parrilla con carnes premium, vinito, música en vivo y sin tener que ir en auto porque te llevamos y te traemos.
+        </div>
+        <div class="centerinside">
+          <a href="https://forms.gle/FHgYsnq4ejbagKGE9" target="_blank" rel="noopener noreferrer" class="gpbtn" id="reservabtn">Reservá tu lugar</a>
+        </div>
+        <div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="experienciasection" class="centerinside">
+    <div class="centerinside">
+      <div class="centerinside" style="width: fit-content;">
+        <img fetchpriority="high" src="assets/images/experienciastxt.svg" id="experienciastxt">
+        <br>
+        <div id="experienciassubtxt">
+          Descubrí todos los eventos que realizamos y
+          <br>
+          empezá a hacerte la idea de lo que vas a vivir.
+          <div class="centerinside" style="margin-top:20px">
+            <a href="https://www.instagram.com/gastropoprosario/" target="_blank" rel="noopener noreferrer" class="gpbtn" id="seguinosbtn">Seguinos</a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="centerinside">
+      <div style="width:90%;font-size:0px">
+          <div class="nopadding">
+            <img fetchpriority="low" src="assets/images/experiencias/experiencias_1.png">
+          </div><div class="nopadding hideexp">
+            <img fetchpriority="low" src="assets/images/experiencias/experiencias_2.png">
+          </div><div class="nopadding">
+            <img fetchpriority="low" src="assets/images/experiencias/experiencias_3.png">
+          </div><div class="nopadding hideexp">
+            <img fetchpriority="low" src="assets/images/experiencias/experiencias_4.png">
+          </div><div class="nopadding">
+            <img fetchpriority="low" src="assets/images/experiencias/experiencias_5.png">
+          </div><div class="nopadding hideexp">
+            <img fetchpriority="low" src="assets/images/experiencias/experiencias_6.png">
+          </div><div class="nopadding">
+            <img fetchpriority="low" src="assets/images/experiencias/experiencias_7.png">
+          </div><div class="nopadding hideexp">
+            <img fetchpriority="low" src="assets/images/experiencias/experiencias_8.png">
+          </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="holasection">
+    <div class="centerinside">
+      <div style="width:fit-content">
+        <div id="holaungustopre" class="centerinside" style="width:100%">
+          <img fetchpriority="high" src="assets/images/holaungustotxt.svg" style="width:70%">
+        </div>
+        <img src="assets/images/foto_holaungusto.png" class="holaungustoelem">
+      <div class="holaungustoelem" id="holaungustotxt">
+          <img fetchpriority="high" src="assets/images/holaungustotxt.svg" id="holaungustopost">
+          <div id="aboutustxt">
+            Somos Fer y Santi y nos gusta mucho brindar como pueden ver. Desde hace más de 10 años organizamos la Semana Gastronómica Rosario y este es un proyecto nuevo que queremos compartir.
+            <br>
+            <br>
+            Fer es experta en fermentos, cocinera y creadora de felicidad, si. Desde hace más de 10 años trabaja en la gestión turística donde ha desarrollado programas que recuperan, ponen en valor y desarrollan la gastronomía local. También llevó adelante emprendimientos gastronómicos propios.
+            <br>
+            <br>
+            Santi es comunicador social y bartender aficionado. Desde hace 10 años trabaja en el sector turístico de Rosario donde ha llevado adelante diferentes proyectos de desarrollo de contenido identitario y creación de canales digitales. También trabajó en la gestión de comunicación digital de diferentes emprendimientos gastronómicos.
+  </div>
+  </div>
+    </div>
+    </div>
+    </div>
+
+
+  <div class="contact" id="contactsection">
+    <div id="contactleftelem">
+    </div>
+    <form id="contact-form" onsubmit="return sendwhatsapp()">
+      <div id="contactotxt">
+        Contacto
+      </div>
+      <div id="contactosubtxt">
+        ¿Querés ser parte de Gastropop? ¿Tenés alguna duda? ¿Querés sumarte como sponsor? ¿Querés invitarnos a comer?
+      </div>
+      <br>
+        <div class="formsmall">
+          <fieldset>
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" placeholder="Damián Betular" autocomplete="on" required>
+          </fieldset>
+        </div>
+        <div class="formsmall">
+          <fieldset>
+            <label for="pasas">Empanadas con pasas</label>
+            <input type="text" name="pasas" id="pasas" placeholder="Sí/No">
+          </fieldset>
+        </div>
+
+          <fieldset>
+            <label for="message">Dejanos tu mensaje</label>
+            <textarea name="message" id="message" placeholder="Por favor escribir el mensaje" required></textarea>
+          </fieldset>
+        <div class="centerinside">
+        <button id="enviarmsg">Enviar mensaje por WhatsApp</button>
+        </div>
+    </form>
+  </div>
+
+  <div style="padding:30px; height:fit-content; display: flex; justify-content: space-between;" id="footertop">
+    <div id="footerrights">
+      <img fetchpriority="high" src="assets/images/gptext.svg" style="width:200px;">
+      <div class="rightstext">
+        Todos los derechos reservados
+        <br id="footerbr">
+        a Gastropop.
+      </div>
+    </div>
+    <div style="height:100%" id="footercontact">
+      <div style="display:inline-block;height:100%">
+        <div class="footertext">
+          Mail de contacto
+        </div>
+      <div class="rightstext">
+        gastropoprosario@gmail.com
+      </div>
+      </div>
+      <div style="display:inline-block;height:100%;" id="seguinos">
+        <div class="footertext">
+          Seguinos
+        </div>
+        <a href="https://www.instagram.com/gastropoprosario/" target="_blank" rel="noopener noreferrer" style="color:#2c2c2c">
+      <div class="rightstext" style="text-align:center">
+        <img src="assets/images/ig.svg" style="width:15px; display:inline-block; position:relative; top:3px;">
+        gastropoprosario
+      </div>
+      </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js" defer></script>
+  <script src="assets/js/code.js" defer></script>
+  <script>
+    function tada() {
+      document.getElementById("js-preloader").classList.add('loaded');
+    }
+
+    window.setTimeout(tada, 7000);
+  </script>
+
+
+  </body>
 </html>
