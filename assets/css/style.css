@@ -501,6 +501,11 @@ Responsive Style
     display:inline-block;
   }
 
+  #pasasdiv {
+    padding-left:15px;
+    float:right;
+  }
+
   #agendatxt {
     max-width:504px;
     width:45vw;
