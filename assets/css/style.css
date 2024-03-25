@@ -502,8 +502,9 @@ Responsive Style
   }
 
   #agendatxt {
-    width:500px;
-    padding-left:100px;
+    max-width:504px;
+    width:45vw;
+    margin-left:10vw;
   }
 
   #agendatxtcontainer {
