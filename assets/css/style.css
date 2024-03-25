@@ -210,7 +210,6 @@ img {
   font-family: 'AmsiPro-Bold', sans-serif;
   font-size: 15px;
   color: #3a3a3a;
-  margin-bottom: 5px;
 }
 
 #contact-form input {
@@ -220,6 +219,7 @@ img {
   background-color: #f6f6f6;
   border: none;
   margin-bottom: 30px;
+  margin-top: 5px;
   font-size: 14px;
   padding: 0px 15px;
 }
@@ -232,6 +232,7 @@ img {
   background-color: #f6f6f6;
   border: none;
   margin-bottom: 40px;
+  margin-top: 5px;
   font-size: 14px;
   padding: 15px 15px;
 }
