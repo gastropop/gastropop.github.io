@@ -18,7 +18,7 @@
     var box = $('#homesection').height();
     var header = $('header').height();
 
-    if (scroll >= box - header) {
+    if (scroll >= box) {
       $('#headerph').css('display','block');
       $("header").addClass("background-header");
     } else {
